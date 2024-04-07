@@ -23,12 +23,9 @@ const App = () => {
       <Route path='/borrows/details/:id' element={<ShowBorrows/>}/>
       <Route path='/borrows/edit/:id' element={<EditBorrows/>}/>
       <Route path='/borrows/delete/:id' element={<DeleteBorrows/>}/>
-      
-
-
       <Route path='/login' element={<LoginPage/>}/>
     </Routes>
   )
 }
-
+//end
 export default App
